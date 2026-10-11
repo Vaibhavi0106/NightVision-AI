@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #fff0f5;
+    color: #4a0e2e;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Bold Hot Pink & White Theme Styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(16px);
+  border: 2px solid #f783ac;
+  box-shadow: 0 10px 30px rgba(230, 73, 128, 0.15);
+}
+
+.glass-card {
+  background: #ffffff;
+  border: 2px solid #fcc2d0;
+  box-shadow: 0 4px 15px rgba(230, 73, 128, 0.1);
+  transition: all 0.25s ease;
+}
+
+.glass-card:hover {
+  border-color: #e64980;
+  box-shadow: 0 8px 25px rgba(230, 73, 128, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Custom Hot Pink Range Sliders */
+input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #fcc2d0;
+  border-radius: 9999px;
+  border: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  height: 22px;
+  width: 22px;
+  border-radius: 9999px;
+  background: #e64980;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+  box-shadow: 0 4px 10px rgba(230, 73, 128, 0.5), 0 0 0 3px #ffffff;
+  transition: all 0.15s ease;
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+  background: #c2255c;
+}
+
+/* Custom Pink Scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff0f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #f783ac;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e64980;
+}

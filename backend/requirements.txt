@@ -1,0 +1,9 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+pillow>=10.2.0
+requests>=2.31.0
+cupy-cuda12x>=13.0.0
+cuda-python>=12.3.0
+python-multipart>=0.0.9
