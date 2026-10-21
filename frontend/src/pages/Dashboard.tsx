@@ -48,10 +48,10 @@ export const Dashboard: React.FC<Props> = ({ health, onNavigate, onLoadSample })
   const stats = health?.stats;
 
   return (
-    <div className="flex flex-col gap-8 max-w-7xl mx-auto px-8 py-8">
+    <div className="flex flex-col gap-8 w-full px-4 sm:px-8 lg:px-12 py-8">
       {/* High-Contrast Hero Banner */}
-      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 glass-panel rounded-3xl p-8 border-2 border-rose-300 shadow-xl relative overflow-hidden bg-gradient-to-r from-pink-100 via-rose-50 to-pink-100 text-slate-900">
-        <div className="flex flex-col gap-3.5 max-w-2xl z-10">
+      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 glass-panel rounded-3xl p-8 border-2 border-rose-300 shadow-xl relative overflow-hidden bg-gradient-to-r from-pink-100 via-rose-50 to-pink-100 text-slate-900 w-full">
+        <div className="flex flex-col gap-3.5 max-w-3xl z-10">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-rose-300 text-rose-700 text-xs font-black shadow-xs w-fit">
             <Zap className="w-4 h-4 text-rose-600 fill-rose-600" /> CUDA C++ Pixel Engine
           </div>

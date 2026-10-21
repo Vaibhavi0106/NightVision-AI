@@ -20,8 +20,8 @@ export const Navbar: React.FC<Props> = ({ activeTab, setActiveTab, hardware }) =
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-gradient-to-r from-pink-600 via-rose-500 to-pink-600 text-white px-8 py-3.5 shadow-xl border-b-4 border-pink-700">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+    <header className="sticky top-0 z-50 bg-gradient-to-r from-pink-600 via-rose-500 to-pink-600 text-white shadow-xl border-b-4 border-pink-700">
+      <div className="w-full px-4 sm:px-8 lg:px-12 py-3.5 flex items-center justify-between">
         {/* Brand Logo */}
         <div 
           onClick={() => setActiveTab('dashboard')}

@@ -140,7 +140,7 @@ export const ImageEnhancer: React.FC<Props> = ({ initialFile, hardware }) => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col gap-6">
+    <div className="w-full px-4 sm:px-8 lg:px-12 py-6 flex flex-col gap-6">
       {/* Top Action Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 glass-panel rounded-2xl p-4 border-2 border-rose-200 bg-white">
         <div className="flex items-center gap-3">

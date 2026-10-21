@@ -15,7 +15,7 @@ interface Props {
 
 export const AboutProject: React.FC<Props> = ({ hardware }) => {
   return (
-    <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col gap-8">
+    <div className="w-full px-4 sm:px-8 lg:px-12 py-8 flex flex-col gap-8">
       {/* Header */}
       <div className="glass-panel rounded-3xl p-8 border border-pink-200 flex flex-col gap-4 shadow-xl bg-gradient-to-r from-white via-pink-50/50 to-rose-50/30">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pink-100 border border-pink-200 text-rose-700 text-xs font-semibold w-fit">

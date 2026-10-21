@@ -52,7 +52,7 @@ export function App() {
         hardware={healthData?.hardware}
       />
 
-      <main className="flex-1">
+      <main className="flex-1 w-full">
         {activeTab === 'dashboard' && (
           <Dashboard
             health={healthData}
